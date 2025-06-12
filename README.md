@@ -201,14 +201,14 @@ curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer your-j
 │
 ├── /infrastructure
 │   ├── /repository              # Repository implementations
-│   ├── /service                 # Services like JWT generation
 │   └── /auth                    # Auth service
 │
 └── /api                         # API handlers (Login, Withdraw, etc.)
-├── /auth.go                 # Handler for login and JWT
-├── /withdraw.go             # Withdraw handler
-├── /deposit.go              # Deposit handler
-└── /balance.go              # Balance inquiry handler
+    ├── /auth.go                 # Handler for login and JWT
+    ├── /withdraw.go             # Withdraw handler
+    ├── /deposit.go              # Deposit handler
+    └── /balance.go              # Balance inquiry handler
+    └── /user.go              # Balance inquiry handler
 
 ```
 
