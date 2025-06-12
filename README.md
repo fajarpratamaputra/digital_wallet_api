@@ -26,18 +26,20 @@ Follow these steps to set up and run the project locally:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/digital-wallet-api.git
+git clone https://github.com/fajarpratamaputra/digital_wallet_api
 cd digital-wallet-api
 ```
 ### 2. Set up the environment
 
 #### Create a .env file in the root of the project to store your configuration.
+```
 echo "DB_USER=root" > .env
 echo "DB_PASSWORD=password" >> .env
 echo "DB_HOST=localhost" >> .env
 echo "DB_PORT=3306" >> .env
 echo "DB_NAME=wallet_db" >> .env
 echo "JWT_SECRET_KEY=secret_key" >> .env
+```
 
 ### 3. Install dependencies
 
